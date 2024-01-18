@@ -8,13 +8,13 @@ model = load(open("xgb.pkl",'rb'))
 st.write("<h1 style='text-align: center; color: #FFD700;'>Medical Insurance Predictor </h1>", unsafe_allow_html = True)
 st.write('This app predicts the medical insurance charges based on features like smoker, age, bmi etc.')
 
-#col1, col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
-#with col1:
-    #st.image('images.jpeg')
+with col1:
+    st.image('image1.jpg')
 
-#with col2:
-    #st.image('images.jpeg')
+with col2:
+    st.image('images.jpg')
 
 col3, col4  = st.columns(2)
 
